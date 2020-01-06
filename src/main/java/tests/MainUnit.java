@@ -27,9 +27,9 @@ public class MainUnit {
 
         //assert
         if (openingBalance == acc.availableBalance() && openingBalance == acc.currentBalance()) {
-            System.out.println("All good");
+            System.out.println("test_does_balance_match_opening_amount_on_account:PASSED");
         } else {
-            System.out.println("Didn't work");
+            System.out.println("test_does_balance_match_opening_amount_on_account:FAILED");
         }
     }
 
@@ -44,9 +44,9 @@ public class MainUnit {
 
         //assert
         if (openingBalance + amountToDeposit == acc.availableBalance() && openingBalance + amountToDeposit == acc.currentBalance()) {
-            System.out.println("All good");
+            System.out.println("test_does_balance_match_after_credit:PASSED");
         } else {
-            System.out.println("Didn't work");
+            System.out.println("test_does_balance_match_after_credit:FAILED");
         }
     }
 
@@ -61,9 +61,9 @@ public class MainUnit {
 
         //assert
         if(openingBalance - amountToDebit == acc.availableBalance() && openingBalance - amountToDebit == acc.currentBalance()) {
-            System.out.println("All good");
+            System.out.println("test_does_balance_match_after_debit:PASSED");
         } else {
-            System.out.println("Didn't work");
+            System.out.println("test_does_balance_match_after_debit:FAILED");
         }
     }
 
@@ -80,9 +80,9 @@ public class MainUnit {
 
         //assert
         if (openingBalance + amountToCredit - amountToDebit == acc.availableBalance() && openingBalance + amountToCredit - amountToDebit == acc.currentBalance()) {
-            System.out.println("All good");
+            System.out.println("test_does_balance_match_after_debit_and_credit:PASSED");
         } else {
-            System.out.println("Didn't work");
+            System.out.println("test_does_balance_match_after_debit_and_credit:FAILED");
         }
     }
 }
