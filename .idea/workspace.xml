@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9094a1-3789-4a23-b117-8cc741d57ca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/CreditAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/TransactionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/CreditAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/CreditAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreditAccountTest.does_balance_match_after_debiting_more_than_balance_on_credit_account">
+  <component name="RunManager" selected="JUnit.CreditAccountTest.does_balance_match_after_debit_on_credit_account">
     <configuration name="AccountTest.does_balance_match_after_credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="banking-core" />
       <extension name="coverage">
@@ -105,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.does_balance_match_opening_amount_on_account" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditAccountTest.does_balance_match_after_debit_on_credit_account" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="banking-core" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +110,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.bankingcore" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.bankingcore.AccountTest" />
-      <option name="METHOD_NAME" value="does_balance_match_opening_amount_on_account" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingcore.CreditAccountTest" />
+      <option name="METHOD_NAME" value="does_balance_match_after_debit_on_credit_account" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreditAccountTest.does_balance_match_after_debit_on_credit_account" />
         <item itemvalue="JUnit.CreditAccountTest.does_balance_match_after_debiting_more_than_balance_on_credit_account" />
         <item itemvalue="JUnit.AccountTest.does_balance_match_after_debit_and_credit" />
         <item itemvalue="JUnit.AccountTest.does_balance_match_after_debit" />
         <item itemvalue="JUnit.AccountTest.does_balance_match_after_credit" />
-        <item itemvalue="JUnit.AccountTest.does_balance_match_opening_amount_on_account" />
       </list>
     </recent_temporary>
   </component>
@@ -209,22 +205,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="419" y="248" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578307171720" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578404352896">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578404766163">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578404352896">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404766163" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578404766163">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578404352896">
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404766163" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578404766163">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578404352896">
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404766163" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578404766163">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404766163" />
     <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1578390552515">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
