@@ -1,7 +1,6 @@
 package tests;
 
-import com.qa.bankingcore.Account;
-import com.qa.bankingcore.Transaction;
+import com.qa.bankingcore.*;
 
 public class MainUnit {
     public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class MainUnit {
     static void test_does_balance_match_opening_amount_on_account(){
         //arrange & act
         double openingBalance = 156.98;
-        Account acc = new Account(1,"Andrew",openingBalance);
+        Account acc = new DebitAccount(1,"Andrew",openingBalance, InterestRate.HOME_LOAN);
 
         //assert
         if (openingBalance == acc.availableBalance() && openingBalance == acc.currentBalance()) {
