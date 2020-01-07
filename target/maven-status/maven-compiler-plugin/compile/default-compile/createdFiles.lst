@@ -1,0 +1,6 @@
+com\qa\bankingcore\DebitAccount.class
+com\qa\bankingcore\InterestRate.class
+com\qa\bankingcore\CreditAccount.class
+com\qa\bankingcore\Transaction.class
+tests\MainUnit.class
+com\qa\bankingcore\Account.class

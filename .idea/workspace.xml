@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9094a1-3789-4a23-b117-8cc741d57ca5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/CreditAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/bankingcore/TransactionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +19,19 @@
         <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1W1BIegnWFTFDF9gYXmCLUISisg" />
   <component name="ProjectViewState">
@@ -29,28 +41,109 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
-    <configuration name="MainUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.MainUnit" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.qa.bankingcore" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CreditAccountTest.does_balance_match_after_debiting_more_than_balance_on_credit_account">
+    <configuration name="AccountTest.does_balance_match_after_credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="banking-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="com.qa.bankingcore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.qa.bankingcore" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingcore.AccountTest" />
+      <option name="METHOD_NAME" value="does_balance_match_after_credit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.does_balance_match_after_debit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.bankingcore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.bankingcore" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingcore.AccountTest" />
+      <option name="METHOD_NAME" value="does_balance_match_after_debit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.does_balance_match_after_debit_and_credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.bankingcore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.bankingcore" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingcore.AccountTest" />
+      <option name="METHOD_NAME" value="does_balance_match_after_debit_and_credit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.does_balance_match_opening_amount_on_account" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.bankingcore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.bankingcore" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingcore.AccountTest" />
+      <option name="METHOD_NAME" value="does_balance_match_opening_amount_on_account" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditAccountTest.does_balance_match_after_debiting_more_than_balance_on_credit_account" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.bankingcore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.bankingcore" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingcore.CreditAccountTest" />
+      <option name="METHOD_NAME" value="does_balance_match_after_debiting_more_than_balance_on_credit_account" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainUnit" />
+        <item itemvalue="JUnit.CreditAccountTest.does_balance_match_after_debiting_more_than_balance_on_credit_account" />
+        <item itemvalue="JUnit.AccountTest.does_balance_match_after_debit_and_credit" />
+        <item itemvalue="JUnit.AccountTest.does_balance_match_after_debit" />
+        <item itemvalue="JUnit.AccountTest.does_balance_match_after_credit" />
+        <item itemvalue="JUnit.AccountTest.does_balance_match_opening_amount_on_account" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +193,14 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578325214011" />
+    <state x="550" y="211" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1578402812903">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="550" y="211" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578402812903" />
+    <state x="436" y="352" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578402917238">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="436" y="352" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578402917238" />
     <state x="294" y="87" key="CommitChangelistDialog2" timestamp="1578390088409">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -108,22 +209,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="419" y="248" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578307171720" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578390901060">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1578404352896">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578390901060" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578390901060">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1578404352896">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578390901060" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578390901060">
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1578404352896">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578390901060" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578390901060">
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1578404352896">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578390901060" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404352896" />
     <state width="1237" height="325" key="GridCell.Tab.1.bottom" timestamp="1578390552515">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -140,10 +241,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1237" height="325" key="GridCell.Tab.1.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578390552515" />
-    <state x="141" y="135" key="SettingsEditor" timestamp="1578312471646">
+    <state x="141" y="135" key="SettingsEditor" timestamp="1578397587659">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="135" key="SettingsEditor/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578312471646" />
+    <state x="141" y="135" key="SettingsEditor/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578397587659" />
     <state x="336" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1578388139028">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -152,6 +253,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="449" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578322172053" />
+    <state x="591" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578404099974">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="591" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578404099974" />
     <state x="22" y="195" key="new project wizard" timestamp="1578307542929">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -164,16 +269,5 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578312446241" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tests/MainUnit.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
