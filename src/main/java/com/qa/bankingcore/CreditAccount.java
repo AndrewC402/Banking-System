@@ -14,10 +14,11 @@ public class CreditAccount extends Account {
     //call super.debit() so calculate the amount owed
 
     public double debit(double amt) {
-        boolean isOverdrawn;
         if (super.availableBalance() - amt < 0) {
            double amountToDebit = amt + (rate.getRate()/100)*amt;
            super.debit(amountToDebit);
+        } else {
+            super.debit(amt);
         }
         return super.availableBalance();
     }

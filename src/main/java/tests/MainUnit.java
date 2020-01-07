@@ -11,6 +11,7 @@ public class MainUnit {
             test_does_balance_match_after_debit();
             test_does_balance_match_after_debit_and_credit();
             test_does_balance_match_after_debiting_more_than_balance_on_credit_account();
+            test_does_balance_match_after_debit_on_credit_account();
 
     }
 
@@ -101,6 +102,23 @@ public class MainUnit {
             System.out.println("test_does_balance_match_after_debiting_more_than_balance_on_credit_account:PASSED");
         } else {
             System.out.println("test_does_balance_match_after_debiting_more_than_balance_on_credit_account:FAILED");
+        }
+    }
+
+    static void test_does_balance_match_after_debit_on_credit_account() {
+        //arrange
+        double openingBalance = 156.96;
+        double amountToDebit = 54.67;
+        Account acc = new CreditAccount(1,"Andrew",openingBalance,InterestRate.HOME_LOAN);
+
+        //Act
+        acc.debit(amountToDebit);
+
+        //Assert
+        if ((openingBalance - amountToDebit) == acc.availableBalance() && (openingBalance -amountToDebit) == acc.currentBalance()) {
+            System.out.println("test_does_balance_match_after_debit_on_credit_account:PASSED");
+        } else {
+            System.out.println("test_does_balance_match_after_debit_on_credit_account:FAILED");
         }
     }
 }
