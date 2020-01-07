@@ -8,4 +8,19 @@ public class CreditAccount extends Account {
         super(id, name, amount);
         this.rate = rate;
     }
+
+    //does amount drop balance below zero
+    //calculate interest rate on overdrawn amount
+    //call super.debit() so calculate the amount owed
+
+    public double debit(double amt) {
+        boolean isOverdrawn;
+        if (super.availableBalance() - amt < 0) {
+           double amountToDebit = amt + (rate.getRate()/100)*amt;
+           super.debit(amountToDebit);
+        }
+        return super.availableBalance();
+    }
+
+
 }

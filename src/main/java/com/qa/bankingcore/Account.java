@@ -43,11 +43,13 @@ public class Account {
         balance += amt;
     }
 
-    public void debit(double amt) {
+    public double debit(double amt) {
         Transaction transaction = new Transaction(amt/-1);
         transactionList.add(transaction);
         balance += (amt/-1);
+        return availableBalance();
     }
+
 
     }
 
