@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b9094a1-3789-4a23-b117-8cc741d57ca5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/bankingcore/CreditAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/bankingcore/CreditAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tests/MainUnit.java</url>
-          <line>92</line>
+          <line>93</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
